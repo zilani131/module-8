@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/6dee0648ee.js" crossorigin="anonymous"></script>
+    <style>
+        section{
+            display: flex;
+            justify-content: center;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+        }
+        h1{
+            text-align: center;
+            margin-bottom: 5px;
+        }
+        form>input,button{
+            margin-top: 5px;
+            border: 2px dashed rgba(0, 0, 255, 0.384);
+            font-size: 20px;
+            border-radius: 4px;
+            box-shadow:4px 4px 6px gray;
+
+        }
+        input:focus{
+            background-color: rgba(13, 0, 130, 0.199);
+        }
+        button#btn{
+            color: rgb(5, 4, 99);
+            font-weight: 700;
+            background-color: rgba(73, 19, 124, 0.205);
+            padding: 5px;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            background-color: rgba(34, 255, 34, 0.644);
+            border-radius: 10px;
+        }
+        nav>span>a{
+           display: inline-block;
+            margin: 10px 20px;
+            text-decoration: none;
+            color: black;
+            font-weight: 600;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <span>
+                 <a href="">Home</a>
+                 <a href="">About</a>
+                 <a href="">Adress</a>
+                 <a href="">Profile</a>
+            </span>
+            <span>
+                <a href=""><i class="fas fa-sign-in-alt"></i></a>
+                <a href=""><i class="fas fa-user"></i></a>
+            </span>
+        </nav>
+    </header>
+    <section id="container-login">
+        <form action="" id="form-login">
+            <h1>Log in</h1>
+            <input type="email" placeholder="Enter your email" required>
+            <input type="text" placeholder="Enter your name" required>
+            <button id="btn">Log in</button>
+        </form>
+    </section>
+</body>
+</html>

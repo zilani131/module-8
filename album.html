@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        section{
+            display: flex;
+            flex-wrap: wrap;
+            
+        }
+        main{
+            margin: 20px;
+        }
+        .photo-album{
+            width: 300px;
+            height: 250px;
+            border: 2px solid green;
+            
+            border-radius: 5px;
+            position: relative;
+            
+        }
+      .photo-frame{
+          width: 300px;
+        
+        
+      }
+      .photo-frame:hover img{
+          transform: scale(1.3) skew(-30deg);
+          transition: transform 2s;
+      }
+      .photo{
+        display: flex;
+          justify-content: center;
+          align-items: center;
+          overflow: hidden;
+      }
+      img{
+          width: 75%;
+          
+          
+      }
+      .photo-details{
+          display: none;
+          position: absolute;
+          top: 0%;
+          padding: 20px;
+          
+      }
+      .photo-album:hover>.photo-details{
+          display: block;
+      }
+      h3{
+          text-align: center;
+          background-color: rgba(161, 124, 124, 0.274);
+          color: black;
+          font-weight: 700;
+      }
+      .description{
+          background-color: rgba(231, 146, 17, 0.384);
+          font-weight: 700;
+      }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <h1>My awesome photo album with tiger mama</h1>
+    <section>
+        <main>
+            <h2>tiger album</h2>
+        <div class="photo-album">
+            <div class="photo-frame">
+                <div class="photo"><img src="./food.jpg" alt=""></div>
+            </div>
+            <div class="photo-details">
+                <h3> food </h3>
+                <div class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui incidunt eius accusantium voluptas nam. Commodi debitis temporibus beatae mollitia vel?</div>
+            </div>
+        </div>
+        </main>
+        <main>
+            <h2>tiger album</h2>
+        <div class="photo-album">
+            <div class="photo-frame">
+                <div class="photo"><img src="./food.jpg" alt=""></div>
+            </div>
+            <div class="photo-details">
+                <h3> food </h3>
+                <div class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui incidunt eius accusantium voluptas nam. Commodi debitis temporibus beatae mollitia vel?</div>
+            </div>
+        </div>
+        </main>
+        <main>
+            <h2>tiger album</h2>
+        <div class="photo-album">
+            <div class="photo-frame">
+                <div class="photo"><img src="./food.jpg" alt=""></div>
+            </div>
+            <div class="photo-details">
+                <h3> food </h3>
+                <div class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui incidunt eius accusantium voluptas nam. Commodi debitis temporibus beatae mollitia vel?</div>
+            </div>
+        </div>
+        </main>
+        <main>
+            <h2>tiger album</h2>
+        <div class="photo-album">
+            <div class="photo-frame">
+                <div class="photo"><img src="./food.jpg" alt=""></div>
+            </div>
+            <div class="photo-details">
+                <h3> food </h3>
+                <div class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui incidunt eius accusantium voluptas nam. Commodi debitis temporibus beatae mollitia vel?</div>
+            </div>
+        </div>
+        </main>
+        <main>
+            <h2>tiger album</h2>
+        <div class="photo-album">
+            <div class="photo-frame">
+                <div class="photo"><img src="./food.jpg" alt=""></div>
+            </div>
+            <div class="photo-details">
+                <h3> food </h3>
+                <div class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui incidunt eius accusantium voluptas nam. Commodi debitis temporibus beatae mollitia vel?</div>
+            </div>
+        </div>
+        </main>
+        <main>
+            <h2>tiger album</h2>
+        <div class="photo-album">
+            <div class="photo-frame">
+                <div class="photo"><img src="./food.jpg" alt=""></div>
+            </div>
+            <div class="photo-details">
+                <h3> food </h3>
+                <div class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui incidunt eius accusantium voluptas nam. Commodi debitis temporibus beatae mollitia vel?</div>
+            </div>
+        </div>
+        </main>
+    </section>
+</body>
+</html>
